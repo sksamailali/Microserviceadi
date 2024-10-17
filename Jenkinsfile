@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build & Tag Docker Image1') {
+        stage('Build & Tag Docker Image') {
             steps {
                 script {
                     dir('src') {
